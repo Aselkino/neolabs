@@ -1,0 +1,41 @@
+body{
+    background-color: #201a1a;
+}
+h1{
+    color: #fff;
+}
+.container{
+    /* background-color: rgb(173, 173, 136); */
+    display: flex;
+    justify-content: space-around;
+    /* width: 980px; */
+}
+.container p{
+    color: rosybrown;
+}
+.news{
+    /* display: inline; */
+    /* background-color: pink; */
+    width: 30%;
+}
+.news h5{
+    color: red;
+}
+.btn{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 5px;
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+}
+.theme-button
+{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: #fff;
+}

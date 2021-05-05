@@ -1,0 +1,14 @@
+#form {
+    height: 300px;
+    border: 1px solid red;
+}
+
+#field {
+    height: 50px;
+    border: 1px solid blue;
+}
+
+#label {
+    height: 20px;
+    border: 1px solid yellow;
+}

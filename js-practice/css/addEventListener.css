@@ -1,0 +1,16 @@
+h1, h2, h3{
+    color: #ff9101;
+}
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    border: 3px solid rgb(255, 145, 0);
+    border-radius: 5px;
+    background-color: rgba(243, 193, 30, 0.5);
+}

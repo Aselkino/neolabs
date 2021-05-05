@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>
+        <span class="yellow">JavaScript.</span>
+        Браузерное окружение.
+        Работа с <span class="yellow">DOM.</span>
+    </h1>
+    <h3>Урок №13</h3>
+    <div class="lesson">
+        <div class="lesson__text">Текст</div>
+        <ul name="list" class="lesson__list">
+            <li class="lesson__item-list lesson__item-list_red">Первый пункт - КРАСНЫЙ</li>
+            <li id="listItem" class="lesson__item-list" >Второй пункт </li>
+            <li data-item="40" class="lesson__item-list">Третий пункт
+                <ul class="lesson__sub-list">
+                    <li class="lesson__item-sub-list">Первый под-пункт</li>
+                    <li data-item="85" class="lesson__item-sub-list">Второй под-пункт</li>
+                    <li class="lesson__item-sub-list">Третий под-пункт</li>
+                </ul>
+            </li>
+            <li class="lesson__item-list lesson__item_blue">Четвертый пункт - СИНИЙ</li>
+        </ul>
+    </div>
+    <a href="" class="lesson__link">это ссылка</a> <br>
+
+    <input type="text" placeholder="Я Input" class="lesson__input"/> 
+
+
+
+
+
+    <script src="js/script.js"></script>
+    
+</body>
+<script src="./scripts/DOM.js"></script>
+</html>

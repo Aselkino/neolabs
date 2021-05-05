@@ -1,0 +1,17 @@
+.title{
+    color: red;
+    font-size: 24px;
+}
+.transformed-text{
+    font-size: 56px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+
+.div{
+    width: 300px;
+    height: 50px;
+    border: 1px solid red;
+    color: green;
+}

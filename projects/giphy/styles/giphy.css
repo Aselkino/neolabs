@@ -1,0 +1,38 @@
+
+header{
+    /* border: 1px solid red; */
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    /* position: fixed; */
+    width: 100%;
+}
+input{
+    background-color: pink;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+::placeholder{
+    padding-left: 10px;
+}
+button{
+    height: 40px;
+    width: 80px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    background-color: transparent;
+}
+#content{
+    height: 100vh;
+    margin: 0 auto;
+    width: 980px;
+}
+footer{
+    background-color: violet;
+    height: 40px;
+    text-align: center;
+}

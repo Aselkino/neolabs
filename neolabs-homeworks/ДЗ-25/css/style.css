@@ -1,0 +1,127 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.light-theme{
+    background-color: #fff;
+}
+.light-theme header{
+    height: 52px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.dark-theme{
+    background-color: #767272;
+    color: #fff;
+}
+.dark-theme header{
+    height: 52px;
+    background: #767272;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.dark-theme .section{
+    background:#2B2626;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* .dark-theme .author-icon{
+    background: url(../img/eye-2.png) no-repeat;
+    width: 22px;
+    height: 22px;
+} */
+.dark-theme button{
+    background: #676565;
+    color: #fff;
+    border: none;
+}
+
+
+.wrapper{
+    width: 974px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+    }
+    .click{
+        width: 267px;
+        height: 50px;
+        border: 1px solid #000;
+    }
+    #click-txt{
+        line-height: 52px;
+        margin-left: 12px;
+        font-size: 24px;
+    }
+    
+.main{
+    text-align: center;
+}
+    h2{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .section{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        width: 498px;
+        height: 172px;
+        margin-bottom: 10px;
+        margin-left: 238px;
+    }
+    #box-1{
+        margin-top: 46px;
+    }
+.course-info{
+    display: flex;
+    padding: 10px;
+}
+    .info-txt{
+        text-align: left;
+        margin-left: 10.5px;
+        font-size: 18px;
+    }
+    h6{
+        padding: 0;
+        margin: 0;
+        font-weight: normal;
+    }
+    p{
+        font-size: 14px;
+        width: 85%;
+    }
+
+
+
+.section-author{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10px;
+}
+.author-icon{
+    display: flex;
+    align-items: center;
+}
+    #icon-p{
+        margin-left: -30px;
+    }
+
+.author-button{
+    margin-top: 5px;
+}
+    button{
+        width: 123px;
+        height: 31px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 6px;
+        margin-right: 38px;
+    }

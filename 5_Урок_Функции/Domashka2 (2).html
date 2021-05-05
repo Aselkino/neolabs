@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Программирование (дз)</title>
+</head>
+<style type="text/css">
+	p{
+		font-size: 20px;
+		animation-duration: 3.5s;
+		animation-name: hameleon;
+		animation-iteration-count: infinite;
+	}
+	@keyframes hameleon {
+		from{
+			color: black;
+		}
+		to{
+			color: red;
+
+		}
+		75%{
+			color: green;
+		}
+
+	}
+</style>
+<body>
+	<h1>Ответы в консоли)))</h1>
+	<p>для открытие консоли нажмите F12</p>
+	<img src="https://news.liga.net/images/general/2019/09/11/20190911154809-5288.jpg?v=1568211325" width="300px">
+	<script type="text/javascript">
+		//Это первое задание калькулятор который возводит в степень
+		function calculator(a,b,){
+			return a**b
+			}
+		let result = calculator(2,3);
+		console.log(result);
+		//второе задание я не смог сделать((
+		//Это дополнительные задания 
+		//№1
+		function isEven(num){
+			if (num % 2 === 0) {
+				return true
+			}
+			else {
+				return false
+			} 
+		}
+		let result1 = isEven(3);//Это функция которая считает четное число или нет
+		console.log(result1)
+
+		//№2
+		function showSecretContent(user){
+			if (user > 18) {
+				return "Добро пожаловать!"
+			}
+			else{
+				return "Вам нет 18!"
+			}
+		}
+		let result2 = showSecretContent(25);//это функция которая впускает пользователя если ему есть 18 лет.
+		console.log(result2)
+	   //№3
+
+		    let user = {
+			name: 'Adnrew',
+			age: 18
+		}
+			let user1 = {
+			name: 'Petr',
+			age: 25
+		}
+			let user2 = {
+			name: 'Sergey',
+			age: 15
+		}
+	   function isAdult(user,user1,user2){
+	    	if (user.age < 18) {
+	   			return "Совершенно летний"
+	   		}
+	   		else {
+	   			return "Несовершенно летний"
+	   		}
+	   		if (user1.age < 18) {
+	   			return "Совершенно летний"
+	   		}
+	   		else {
+	   			return "Несовершенно летний"
+	   		}
+	   		if (user1.age < 18) {
+	   			return "Совершенно летний"
+	   		}
+	   		else {
+	   			return "Несовершенно летний"
+	   		}
+
+		}
+		
+
+		let result3 = isAdult()
+		console.log(result3)//Тоже решить не получилось выдает ошибку(
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+const powModule = require('./lib/numerig')

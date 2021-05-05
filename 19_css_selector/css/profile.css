@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+}
+.container{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+.profile-card{
+        width: 400px;
+        border: 1px solid purple;
+        
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 6px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0 auto; 
+    }
+    .profile-image{
+        width: 300px;
+        height: 200px;
+
+        border-radius: 70px;
+        object-fit: contain;
+    }
+
+.profile-avatar{
+        /* display: flex;
+        justify-content: center; */
+    }
+    .profile-info{
+        font-family: 'New Tegomin', serif; 
+        /* display: grid;
+        justify-content: center; */
+        /* display: flex;
+        justify-content: start; */
+        /* display: flex; */
+        text-align: center;
+
+    }
+    .profile-info p{
+        margin: 0;
+        /* padding: 8px; */
+    }
+    .profile-edit{
+        /* display: flex;
+        justify-content: center; */
+        padding-top: 25px;
+    }
+    .button{
+        width: 150px;
+        height: 44px;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        margin-right: 5px;
+    }
+    .edit{
+        background: rgb(132, 246, 132);
+    }
+    .delete{
+        background:rgb(241, 61, 61);
+        border: 1px solid pink;
+    }
+

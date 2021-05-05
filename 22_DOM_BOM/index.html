@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Local Storage | Input Events</title>
+</head>
+<body>
+    <div id="root">
+        <div class="todo">
+            <div class="todo-header">
+                <input id="todo-text" type="text" placeholder="search">
+                <button id="todo-add">Добавить</button>
+                <button id="todo-clear">Очистить</button>
+            </div>
+            <h1 class="todo-title">Список задач</h1>
+            <div class="todo-items" id="todos">
+                <ul class="todo-item">
+                    <p>Купить</p>
+                    <p>Купить Dell </p>   
+                </ul>
+                
+            </div>
+        </div>
+
+        <div id="display"></div>
+    </div>
+</body>
+    <script src="./scripts/todo-app.js"></script>
+    <script src="./scripts/constants.js"></script>
+    <!-- <script src="./scripts/DOM.js"></script> -->
+    <script src="./scripts/localStorage.js"></script>
+    <!-- <script src="./scripts/DOM.js"></script> -->
+</html>
